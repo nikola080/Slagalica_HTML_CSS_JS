@@ -1,0 +1,1 @@
+Otvoriti prvo skocko-uputsvo, odatle se prelazi u skocko-podesavanja, a  odatle u skocko-igra.

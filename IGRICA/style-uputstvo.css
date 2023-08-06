@@ -1,0 +1,31 @@
+body{
+    
+    background-image: url('skocko-dodatno/slika3.jpg');
+    height: 100vh;
+    background-size: 100% 100%;
+
+}
+.kutija{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    height: 75vh;
+    width: 50vw;
+    flex-direction: column;
+}
+.spolja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.parag{
+    color: white;
+}
+
+.unutra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igra</title>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+    <link rel="stylesheet" text = "html/css" href="style-igra.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script  src = "skript-igra.js" ></script>
+
+
+</head>
+<body>
+    <div class="container spolja">
+        <div class="kutija ">
+            <div class="prvired">
+                <div class="poljaUnetih">
+                    <div class="nizPolja">
+                        <div class="unetoPolje rounded"></div>
+                        <div class="unetoPolje rounded"></div>
+                        <div class="unetoPolje rounded"></div>
+                        <div class="unetoPolje rounded"></div>
+                    </div>
+                    <div class="nizPolja">
+                        <div class="unetoPolje rounded"></div>
+                        <div class="unetoPolje rounded"></div>
+                        <div class="unetoPolje rounded"></div>
+                        <div class="unetoPolje rounded"></div>
+                    </div>
+                    <div class="nizPolja">
+                        <div class="unetoPolje rounded"></div>
+                        <div class="unetoPolje rounded"></div>
+                        <div class="unetoPolje rounded"></div>
+                        <div class="unetoPolje rounded"></div>
+                    </div>
+                    <div class="nizPolja">
+                        <div class="unetoPolje rounded"></div>
+                        <div class="unetoPolje rounded"></div>
+                        <div class="unetoPolje rounded"></div>
+                        <div class="unetoPolje rounded"></div>
+                    </div>
+                    <div class="nizPolja">
+                        <div class="unetoPolje rounded"></div>
+                        <div class="unetoPolje rounded"></div>
+                        <div class="unetoPolje rounded"></div>
+                        <div class="unetoPolje rounded"></div>
+                    </div>
+                    <div class="nizPolja">
+                        <div class="unetoPolje rounded"></div>
+                        <div class="unetoPolje rounded"></div>
+                        <div class="unetoPolje rounded"></div>
+                        <div class="unetoPolje rounded"></div>
+                    </div>
+                    <div class="nizPolja">
+                        <div class="unetoPolje rounded"></div>
+                        <div class="unetoPolje rounded"></div>
+                        <div class="unetoPolje rounded"></div>
+                        <div class="unetoPolje rounded"></div>
+                    </div>
+                 
+                </div>
+    
+                <div class="poljaResenja">
+                    <div class="nizPoljaResenja">
+                        <div class="poljeResenja rounded-circle"></div>
+                        <div class="poljeResenja rounded-circle"></div>
+                        <div class="poljeResenja rounded-circle"></div>
+                        <div class="poljeResenja rounded-circle"></div>
+                    </div>
+                    <div class="nizPoljaResenja">
+                        <div class="poljeResenja rounded-circle"></div>
+                        <div class="poljeResenja rounded-circle"></div>
+                        <div class="poljeResenja rounded-circle"></div>
+                        <div class="poljeResenja rounded-circle"></div>
+                    </div>
+                    <div class="nizPoljaResenja">
+                        <div class="poljeResenja rounded-circle"></div>
+                        <div class="poljeResenja rounded-circle"></div>
+                        <div class="poljeResenja rounded-circle"></div>
+                        <div class="poljeResenja rounded-circle"></div>
+                    </div>
+                    <div class="nizPoljaResenja">
+                        <div class="poljeResenja rounded-circle"></div>
+                        <div class="poljeResenja rounded-circle"></div>
+                        <div class="poljeResenja rounded-circle"></div>
+                        <div class="poljeResenja rounded-circle"></div>
+                    </div>
+                    <div class="nizPoljaResenja">
+                        <div class="poljeResenja rounded-circle"></div>
+                        <div class="poljeResenja rounded-circle"></div>
+                        <div class="poljeResenja rounded-circle"></div>
+                        <div class="poljeResenja rounded-circle"></div>
+                    </div>
+                    <div class="nizPoljaResenja">
+                        <div class="poljeResenja rounded-circle"></div>
+                        <div class="poljeResenja rounded-circle"></div>
+                        <div class="poljeResenja rounded-circle"></div>
+                        <div class="poljeResenja rounded-circle"></div>
+                    </div>
+                    <div class="nizPoljaResenja">
+                        <div class="poljeResenja rounded-circle"></div>
+                        <div class="poljeResenja rounded-circle"></div>
+                        <div class="poljeResenja rounded-circle"></div>
+                        <div class="poljeResenja rounded-circle"></div>
+                    </div>
+                    
+                </div>
+    
+                <div class="dugmici">
+                    <input id = "nIgra" type="button" value="Nova igra" disabled = "disabled">
+                    <input id = "startT" type="button" value="Start" > 
+                    <p id = "vremeLabel">Vreme prvog</p>
+                    <input type="text" value="60" id="vreme">
+                </div>
+            </div>
+           <div class="drugired">
+               <div class="resenje">
+                   <div class="poljeKonacno rounded"></div>
+                   <div class="poljeKonacno rounded"></div>
+                   <div class="poljeKonacno rounded"></div>
+                   <div class="poljeKonacno rounded"></div>
+               </div>
+               <div class="prazno"></div>
+                   <label for="unos" id = "labelUnos">Unos:&nbsp;</label> 
+                   <div class="unos">
+                        <div class="unosPolja"><img class = "slikaZaUnos rounded" src="skocko-dodatno//herc.jpg" alt="#"></div>
+                        <div class="unosPolja"><img class = "slikaZaUnos rounded" src="skocko-dodatno//karo.jpg" alt="#"></div>
+                        <div class="unosPolja"><img class = "slikaZaUnos rounded" src="skocko-dodatno//pik.jpg" alt="#"></div>
+                        <div class="unosPolja"><img class = "slikaZaUnos rounded" src="skocko-dodatno//tref.jpg" alt="#"></div>
+                        <div class="unosPolja"><img class = "slikaZaUnos rounded" src="skocko-dodatno//zvezda.jpg" alt="#"></div>
+                        <div class="unosPolja"><img class = "slikaZaUnos rounded" src="skocko-dodatno//skocko.jpg" alt="#"></div>
+                    </div>
+           </div>
+        </div>
+    </div>
+    
+</body>
+</html>
